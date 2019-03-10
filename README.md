@@ -24,6 +24,9 @@ How to run:
   (Input hand-written file and returns the prediction of this picture, and then post the result to cassandra database)
   
   
+  Project demo.mp4 is a demo of how I run this program.
+  
+  
   
 
   
