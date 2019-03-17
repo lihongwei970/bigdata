@@ -1,4 +1,4 @@
-# Big data Final Project
+# Big Data Final Project
 1. Project description:
  
   I build the Mnist hand-written recognition program into a docker container and by applying restful web service API, the           program is able to handle the request from client console and print out the result of prediction of hand-written picture, and   finally post all of the information into Cassandra database which is also built in another container in docker. 
