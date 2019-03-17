@@ -21,7 +21,8 @@ How to run:
   Command 2:
   
   curl -i -H "Content-Type: application/json" -X POST -d '{"file":"number8.png"}' http://localhost:80/todo/api/v1.0/tasks
-  (Input hand-written file and returns the prediction of this picture, and then post the result to cassandra database)
+  (Input hand-written file,file name followed by "file" in the command and returns the prediction of this picture, and then
+  post the result to cassandra database)
   
  
  [![Demo video](https://img.youtube.com/vi/j7JceTSyAZ4/0.jpg)](https://www.youtube.com/watch?v=j7JceTSyAZ4)
