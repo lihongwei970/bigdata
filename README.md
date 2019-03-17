@@ -9,12 +9,13 @@
   Dockerfile, app.py, requirements.txt are files for container creation on Docker.
 
 3. How to run:
-  1. docker pull Cassandra                                      (Pull cassandra database to docker)
-  2. docker build --tag=restful .                               (Build image and container)
-  3. docker network create --attachable test_net                (Create network for container communication)
-  4. docker run –-network=test_net --name hongwei-cassandra -p  (Run the cassandra database and connect it to the network) 
-  5. docker run –-network=test_net -p 4000:80 restful           (Run the app and connect it to the netwrok we created)
-  In a new window:
+  a. docker pull Cassandra                                      (Pull cassandra database to docker)
+  b. docker build --tag=restful .                               (Build image and container)
+  c. docker network create --attachable test_net                (Create network for container communication)
+  d. docker run –-network=test_net --name hongwei-cassandra -p  (Run the cassandra database and connect it to the network) 
+  e. docker run –-network=test_net -p 4000:80 restful           (Run the app and connect it to the netwrok we created)
+  
+  In a new command window:
   
   Command 1:
   
