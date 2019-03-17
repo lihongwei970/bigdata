@@ -6,6 +6,7 @@
 2. File description:
  
   Number1-9.png are input hand-written pictures.
+  
   Dockerfile, app.py, requirements.txt are files for container creation on Docker.
 
 3. How to run:
