@@ -1,9 +1,14 @@
-# Bigdata final project
+# Big data Final Project
+1. Project description:
+ 
+  I build the Mnist hand-written recognition program into a docker container and by applying restful web service API, the           program is able to handle the request from client console and print out the result of prediction of hand-written picture, and   finally post all of the information into Cassandra database which is also built in another container in docker. 
+  
+2. File description:
+ 
+  Number1-9.png are input hand-written pictures.
+  Dockerfile, app.py, requirements.txt are files for container creation on Docker.
 
-Number1-9.png are input hand-written pictures.
-Dockerfile, app.py, requirements.txt are files for container creation on Docker.
-
-How to run:
+3. How to run:
   1. docker pull Cassandra                                      (Pull cassandra database to docker)
   2. docker build --tag=restful .                               (Build image and container)
   3. docker network create --attachable test_net                (Create network for container communication)
@@ -25,7 +30,7 @@ How to run:
   post the result to cassandra database)
   
  
- [![Demo video](https://img.youtube.com/vi/j7JceTSyAZ4/0.jpg)](https://www.youtube.com/watch?v=j7JceTSyAZ4)
+ 4. [![Demo video](https://img.youtube.com/vi/j7JceTSyAZ4/0.jpg)](https://www.youtube.com/watch?v=j7JceTSyAZ4)
 
   
 
